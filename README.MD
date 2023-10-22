@@ -17,7 +17,7 @@ docker build https://github.com/DmitryevichD/teamcity-password-decryptor.git --t
 
 Unscrambler password
 ```
-docker run teamcity-password-decryptor --rm  zxxb1b64ad3319d8d0ba7e5744b9e50a0fb
+docker run --rm teamcity-password-decryptor - zxxb1b64ad3319d8d0ba7e5744b9e50a0fb
 ```
 
 [Source research](https://www.exfiltrated.com/research/Continuous_Integration_Continous_Compromise_Bsides2017_Wesley_Wineberg.pdf)
